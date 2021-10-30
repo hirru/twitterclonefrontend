@@ -1,0 +1,22 @@
+.newStatusHead {
+  padding: 10px;
+  cursor: pointer;
+}
+.modelIcon2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.headStart > h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+  min-width: 500px;
+  min-height: 250px;
+}
+.buttonDiv {
+  margin-left: 25%;
+}

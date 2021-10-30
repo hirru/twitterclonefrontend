@@ -1,0 +1,13 @@
+.MuiOutlinedInput-input {
+  width: 100%;
+}
+.MuiOutlinedInput-input {
+  padding: 15px 10px;
+}
+
+.borderColor fieldset {
+  border-color: "#ffffff !important";
+}
+.borderColor fieldset:hover {
+  border-color: "#ffffff !important";
+}

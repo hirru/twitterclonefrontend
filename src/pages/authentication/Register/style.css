@@ -1,0 +1,199 @@
+.signIn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+  background-color: #fff !important;
+}
+.AuthBg {
+  background-color: #fff !important;
+}
+.registerrr h2 {
+  font-size: 24px !important;
+}
+.textAreaStyle {
+  width: calc(90% - 50px);
+  height: 70px;
+  /* margin-bottom: 50px; */
+}
+.textAreaStyle textarea {
+  width: 100%;
+  height: unset;
+  resize: none;
+  border-color: black;
+  border-radius: 3px;
+}
+
+.signInFormDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  offset: 0px, 0px rgba(0, 0, 0, 0.25);
+
+  width: 720px;
+  max-width: 80%;
+}
+
+.fixingsignInFormDiv {
+  margin: 30px auto !important;
+}
+
+.formDiv {
+  position: relative;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+  background-color: #fff;
+  margin-right: 0 !important;
+}
+.formDiv h2 {
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.signInForm {
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+  margin: 10px auto !important;
+  width: 100% !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signInForm .MuiOutlinedInput-input {
+  width: 100%;
+}
+
+.randomName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100% !important;
+  border-top: 1px solid #07232c;
+}
+
+.signInFormOptions {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(90% - 50px);
+}
+.randomNamep {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.rememberMeOption {
+  display: flex;
+  align-items: center;
+}
+
+.registerButton {
+  margin-top: 20px;
+}
+.signInPassword {
+  width: 50%;
+}
+.RegisterInfo,
+.signInEmail,
+.signInPassword {
+  margin-bottom: 30px;
+}
+
+.signInForm .MuiOutlinedInput-input {
+  padding: 15px 10px;
+}
+.RegisterInfo,
+.signInEmail,
+.signInPassword {
+  position: relative;
+  width: calc(90% - 50px);
+  height: 40px;
+}
+
+.signInForm .PrivateNotchedOutline-root-2 {
+  top: -5;
+}
+
+.eyeicon {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .signInFormDiv {
+    width: 720px;
+    max-width: 80%;
+    flex-wrap: wrap;
+    height: auto;
+    overflow: visible;
+  }
+
+  .signInFormDiv h2 {
+    margin: 10px;
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  .RegisterInfo .d-flex.flex-row {
+    flex-wrap: wrap;
+  }
+  .RegisterInfo {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .MuiFormControl-root.MuiTextField-root.ml-2 {
+    margin: 10px 0 0 0;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .signInFormOptions {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 400px) {
+  .RegisterInfo,
+  .signInEmail,
+  .signInPassword,
+  .signInFormOptions {
+    width: calc(90% - 15px);
+  }
+  .signInFormDiv {
+    max-width: 88%;
+  }
+}
+.registerTopHeading {
+  margin-top: 5px !important;
+}
+.textAreaStyle {
+  width: calc(90% - 50px);
+  height: 70px;
+  /* margin-bottom: 50px; */
+}
+
+.textAreaStyle .MuiOutlinedInput-input {
+  height: 70px;
+}
